@@ -835,6 +835,12 @@ section {
     background: rgba(255, 107, 53, 0.05);
 }
 
+.form-group select option {
+    background: var(--dark-card);
+    color: var(--text-primary);
+    padding: 10px;
+}
+
 .form-group textarea {
     resize: vertical;
     min-height: 120px;
